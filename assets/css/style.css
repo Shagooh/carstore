@@ -2,3 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "filters"
+        "main"
+        "footer";
+}
+
+.nav-section {}
+
+.filters-section {}
+
+.main-section {}
+
+.foot-section {}
