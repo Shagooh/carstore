@@ -8,19 +8,24 @@
 
     grid-template-areas:
         "navbar"
-        "filters"
+        "filter"
         "main"
         "footer";
+    grid-template-rows: 50px 50px 1fr 50px;
+    width: auto;
+    height: 100vh;
 }
 
 .nav-section {
     grid-area: navbar;
     display: flex;
-    ;
+    background-color: rgb(196, 204, 204);
+    justify-content: space-between;
+
 }
 
 .filters-section {
-    grid-area: filters;
+    grid-area: filter;
 }
 
 .main-section {
