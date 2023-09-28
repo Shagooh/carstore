@@ -5,7 +5,6 @@
 
 .container {
     display: grid;
-
     grid-template-areas:
         "navbar"
         "filter"
@@ -46,7 +45,8 @@
 }
 
 .filters-section select {
-    width: 100px;
+    width: 200px;
+    height: 50px;
 }
 
 .main-section {
