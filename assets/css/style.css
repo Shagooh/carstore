@@ -53,6 +53,21 @@
     grid-area: main;
 }
 
+.main-section .card-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: fit-content;
+    padding: 10px;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.main-section .card-container .card img {
+    width: 150px;
+}
+
 .foot-section {
     grid-area: footer;
 }
