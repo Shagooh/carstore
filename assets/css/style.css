@@ -18,7 +18,7 @@
 .nav-section {
     grid-area: navbar;
     display: flex;
-    background-color: aqua;
+    background-color: rgb(86, 226, 105);
     justify-content: space-between;
     padding: 10px;
 }
@@ -46,7 +46,7 @@
 
 .filters-section select {
     width: 200px;
-    height: 50px;
+    height: 30px;
 }
 
 .main-section {
@@ -63,8 +63,10 @@
     flex-direction: column;
     align-items: center;
     width: 200px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     gap: 10px;
+    border-style:groove ;
     border-radius: 5px;
 }
 
@@ -73,7 +75,7 @@
 }
 
 .main-section .card-container .card button {
-    background-color: blue;
+    background-color: rgb(41, 196, 61);
     color: white;
     width: 100px;
     height: 40px;
@@ -81,11 +83,13 @@
     border-radius: 5px;
 }
 
-.main-section .navigation ul {
+.main-section .navigation {
     list-style: none;
     display: flex;
     flex-direction: row;
     border-radius: 2px;
+    padding: 10px;
+    
 }
 
 .foot-section {
@@ -94,5 +98,5 @@
     flex-direction: column;
     text-align: center;
     padding: 10px;
-    background-color: aqua;
+    background-color: rgb(86, 226, 105);
 }
