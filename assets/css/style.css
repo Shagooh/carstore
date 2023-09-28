@@ -5,17 +5,28 @@
 
 .container {
     display: grid;
+
     grid-template-areas:
-        "nav"
+        "navbar"
         "filters"
         "main"
         "footer";
 }
 
-.nav-section {}
+.nav-section {
+    grid-area: navbar;
+    display: flex;
+    ;
+}
 
-.filters-section {}
+.filters-section {
+    grid-area: filters;
+}
 
-.main-section {}
+.main-section {
+    grid-area: main;
+}
 
-.foot-section {}
+.foot-section {
+    grid-area: footer;
+}
