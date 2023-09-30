@@ -35,6 +35,10 @@
     width: 30px;
 }
 
+.nav-section ul{
+    display: none;
+}
+
 
 .filters-section {
     grid-area: filter;
@@ -104,12 +108,25 @@
 @media (min-width: 576px){
     .container {
         grid-template-areas:
-            "navbar"
-            "filter"
-            "main"
-            "footer";
-        grid-template-rows: 50px 50px 1fr 50px;
+            "navbar filter"
+            "navbar main"
+            "footer main";
+        grid-template-rows: 50px 1fr 50px;
     }
+
+    .nav-section {
+        flex-direction: column;
+        justify-content: start;
+        gap: 25px;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .nav-section ul{
+        list-style: none;
+        display: block;
+    }
+
     .nav-section .menu {
         display: none;
     }
@@ -119,7 +136,7 @@
         flex-wrap: wrap;
     }
     .filters-section select {
-        width: 570px;
+        width: 400px;
     }
 
 
