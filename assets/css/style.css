@@ -100,3 +100,27 @@
     padding: 10px;
     background-color: rgb(86, 226, 105);
 }
+
+@media (min-width: 576px){
+    .container {
+        grid-template-areas:
+            "navbar"
+            "filter"
+            "main"
+            "footer";
+        grid-template-rows: 50px 50px 1fr 50px;
+    }
+    .nav-section .menu {
+        display: none;
+    }
+
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .filters-section select {
+        width: 570px;
+    }
+
+
+}
